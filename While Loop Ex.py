@@ -2,7 +2,9 @@
 #variable that we define for you. So, for example, if we define end to be 6, your code should print out the result: 21
 
 total = 0
-for i in range(end+1):
+i = 0
+while i <= end:
     total += i
+    i += 1
 
-    print(total)
+print(total)
